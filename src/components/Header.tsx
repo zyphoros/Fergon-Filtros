@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
             </span>
             <span className="inline-flex items-center gap-1.5 hover:text-white transition-colors">
               <Clock className="w-3.5 h-3.5 text-[#3DBE6C]" />
-              <span>{companyData.days}: {companyData.hours}</span>
+              <span>Seg a Sex: {companyData.hours} | Sáb: {companyData.saturdayHours}</span>
             </span>
           </div>
 

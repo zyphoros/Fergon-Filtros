@@ -93,7 +93,7 @@ export const Hero: React.FC = () => {
               <div className="hidden sm:block w-px h-6 bg-[#1C3675]"></div>
               <div>
                 <span className="block text-slate-500 uppercase tracking-wider text-[10px] font-bold">Horário de Atendimento:</span>
-                <span className="font-semibold text-slate-200">{companyData.days}, {companyData.hours}</span>
+                <span className="font-semibold text-slate-200">Seg a Sex: {companyData.hours} | Sáb: {companyData.saturdayHours}</span>
               </div>
             </div>
 
@@ -123,7 +123,7 @@ export const Hero: React.FC = () => {
                     </div>
                   </div>
                   <span className="px-2.5 py-1 rounded-md bg-[#3DBE6C]/10 border border-[#3DBE6C]/30 text-[11px] font-bold text-[#3DBE6C]">
-                    CLN 103
+                    CLN 309
                   </span>
                 </div>
 

@@ -92,9 +92,12 @@ export const Footer: React.FC = () => {
                 </a>
               </div>
 
-              <div className="flex items-center gap-2">
-                <Clock className="w-4 h-4 text-[#2E9BF0] flex-shrink-0" />
-                <span>{companyData.days}, das {companyData.hours}</span>
+              <div className="flex items-start gap-2">
+                <Clock className="w-4 h-4 text-[#2E9BF0] flex-shrink-0 mt-0.5" />
+                <div>
+                  <p>Seg a Sex: das {companyData.hours}</p>
+                  <p>Sábados: das {companyData.saturdayHours}</p>
+                </div>
               </div>
             </div>
           </div>

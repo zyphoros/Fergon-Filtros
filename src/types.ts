@@ -58,4 +58,6 @@ export interface CompanyInfo {
   mapsEmbedIframe: string;
   hours: string;
   days: string;
+  saturdayHours?: string;
+  saturdayDays?: string;
 }

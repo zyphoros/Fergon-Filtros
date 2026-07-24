@@ -137,11 +137,11 @@ export const ContactSection: React.FC = () => {
                     <span className="font-bold text-white block text-xs uppercase tracking-wider text-slate-400">
                       Horário de Funcionamento:
                     </span>
-                    <p className="text-slate-200 font-semibold mt-0.5">
-                      {companyData.days}
+                    <p className="text-slate-200 font-semibold mt-0.5 text-xs">
+                      {companyData.days}: <strong className="text-[#3DBE6C] font-bold">{companyData.hours}</strong>
                     </p>
-                    <p className="text-xs text-[#3DBE6C] font-bold">
-                      Das {companyData.hours}
+                    <p className="text-slate-200 font-semibold mt-1 text-xs">
+                      {companyData.saturdayDays}: <strong className="text-[#3DBE6C] font-bold">{companyData.saturdayHours}</strong>
                     </p>
                   </div>
                 </div>

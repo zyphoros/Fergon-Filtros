@@ -16,6 +16,8 @@ export const companyData: CompanyInfo = {
   mapsEmbedIframe: 'https://maps.google.com/maps?q=CLN+309+Bloco+B+Loja+36+Asa+Norte+Bras%C3%ADlia+70755-520&hl=pt-BR&z=17&output=embed',
   hours: '08:30 às 17:30',
   days: 'Segunda a Sexta-feira',
+  saturdayHours: '08:30 às 14:00',
+  saturdayDays: 'Sábados',
 };
 
 export const servicesData: ServiceItem[] = [
