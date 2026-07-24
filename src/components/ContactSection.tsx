@@ -65,7 +65,7 @@ export const ContactSection: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300">
-            Estamos localizados no Plano Piloto (CLN 103) e prontos para atender você em todo o Distrito Federal.
+            Estamos localizados na Asa Norte (CLN 309, Bloco B, Loja 36) e prontos para atender você em todo o Distrito Federal.
           </p>
         </div>
 
@@ -335,7 +335,7 @@ export const ContactSection: React.FC = () => {
               <div className="flex items-center justify-between px-2">
                 <span className="text-xs font-bold text-slate-300 flex items-center gap-1.5">
                   <MapPin className="w-4 h-4 text-[#2E9BF0]" />
-                  Localização da Fêrgon no Google Maps (Plano Piloto - Brasília)
+                  Localização da Fêrgon no Google Maps (CLN 309 - Asa Norte, Brasília)
                 </span>
                 <a
                   href={companyData.mapsUrl}
@@ -351,7 +351,7 @@ export const ContactSection: React.FC = () => {
               <div className="w-full h-64 rounded-2xl overflow-hidden border border-[#1C3675]/80 bg-[#071333]">
                 <iframe
                   title="Fêrgon Filtros e Refrigeração Google Maps"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.8821946399945!2d-47.8885!3d-15.7725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a25d25e0a05%3A0x6b63750fb9a98980!2sCLN%20103%20-%20Asa%20Norte%2C%20Bras%C3%ADlia%20-%20DF%2C%2070733-530!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                  src={companyData.mapsEmbedIframe}
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

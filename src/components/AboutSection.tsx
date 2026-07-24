@@ -24,12 +24,12 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-extrabold text-white">Fêrgon</h3>
-                  <p className="text-xs text-[#3DBE6C] font-semibold">Filtros e Refrigeração • Plano Piloto</p>
+                  <p className="text-xs text-[#3DBE6C] font-semibold">Filtros e Refrigeração • Asa Norte</p>
                 </div>
               </div>
 
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
-                Sediada estrategicamente no <strong className="text-white">Comércio Local Norte 103 (CLN 103)</strong>, a Fêrgon nasceu para oferecer um atendimento técnico humanizado, ágil e altamente especializado para famílias e empresas de Brasília.
+                Sediada estrategicamente na <strong className="text-white">CLN 309, Bloco B, Loja 36 (Asa Norte)</strong>, a Fêrgon nasceu para oferecer um atendimento técnico humanizado, ágil e altamente especializado para famílias e empresas de Brasília.
               </p>
 
               {/* Info Details List */}

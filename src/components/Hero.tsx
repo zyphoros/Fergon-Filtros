@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1C3675]/60 border border-[#2E9BF0]/30 text-xs sm:text-sm font-semibold text-slate-200 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full bg-[#3DBE6C] animate-ping"></span>
               <MapPin className="w-4 h-4 text-[#2E9BF0]" />
-              <span>Atendimento em Brasília - Plano Piloto (CLN 103)</span>
+              <span>Atendimento em Brasília - Asa Norte (CLN 309, Bl. B, Lj. 36)</span>
             </div>
 
             {/* Main Title */}
@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              Assistência técnica especializada, higienização, manutenção preventiva e venda de refis para filtros, purificadores e bebedouros no <strong className="text-white font-semibold">Plano Piloto</strong> e toda Brasília.
+              Assistência técnica especializada, higienização, manutenção preventiva e venda de refis para filtros, purificadores e bebedouros na <strong className="text-white font-semibold">Asa Norte (CLN 309)</strong> e toda Brasília.
             </p>
 
             {/* Quick Benefits Bullet Points */}

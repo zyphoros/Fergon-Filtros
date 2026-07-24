@@ -4,17 +4,17 @@ export const companyData: CompanyInfo = {
   name: 'Fêrgon',
   tagline: 'FILTROS E REFRIGERAÇÃO',
   subtitle: 'Assistência Técnica Especializada em Filtros, Purificadores e Bebedouros',
-  address: 'Comércio Local Norte 103 (CLN 103)',
-  cityState: 'Plano Piloto, Brasília - DF',
-  cep: '70733-530',
-  fullAddress: 'CLN 103, Bloco A / Comércio Local Norte 103, Plano Piloto, Brasília - DF, CEP 70733-530',
+  address: 'CLN 309, Bloco B, Loja 36',
+  cityState: 'Asa Norte, Brasília - DF',
+  cep: '70755-520',
+  fullAddress: 'CLN 309, Bloco B, Loja 36, Asa Norte, Brasília - DF, CEP 70755-520',
   phoneFormatted: '(61) 98204-9206',
   phoneRaw: '5561982049206',
   whatsappUrl: 'https://wa.me/5561982049206',
   instagramUrl: 'https://www.instagram.com/fergonfiltros_refrigeracao/',
-  mapsUrl: 'https://maps.app.goo.gl/Zf9D4mW2cDwDqMdB6',
-  mapsEmbedIframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.8821946399945!2d-47.8868!3d-15.7725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a25d25e0a05%3A0x6b63750fb9a98980!2sCLN%20103%20-%20Asa%20Norte%2C%20Bras%C3%ADlia%20-%20DF%2C%2070733-530!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr',
-  hours: '08h30 às 18h00',
+  mapsUrl: 'https://www.google.com/maps/search/CLN+309+Bloco+B+Loja+36+Asa+Norte+Bras%C3%ADlia+DF+70755-520/@-15.7533,-47.8897,17z?hl=pt-BR',
+  mapsEmbedIframe: 'https://maps.google.com/maps?q=CLN+309+Bloco+B+Loja+36+Asa+Norte+Bras%C3%ADlia+70755-520&hl=pt-BR&z=17&output=embed',
+  hours: '08:30 às 17:30',
   days: 'Segunda a Sexta-feira',
 };
 
@@ -170,8 +170,8 @@ export const faqsData = [
     answer: 'A recomendação geral dos fabricantes e órgãos de saúde é trocar o refil a cada 6 meses ou a cada 3.000 a 4.000 litros de água filtrada. Se notar diminuição no fluxo de água, alteração no sabor ou odor, a troca deve ser antecipada.'
   },
   {
-    question: 'Vocês atendem em todas as quadras do Plano Piloto e de Brasília?',
-    answer: 'Sim! Nossa sede fica na CLN 103 (Plano Piloto), e atendemos prontamente todo o Plano Piloto, Asa Sul, Asa Norte, Lago Norte, Lago Sul, Sudoeste, Noroeste, Águas Claras, Guará, Taguatinga e demais regiões do Distrito Federal.'
+    question: 'Vocês atendem em todas as quadras da Asa Norte, Plano Piloto e de Brasília?',
+    answer: 'Sim! Nossa sede fica na CLN 309, Bloco B, Loja 36 (Asa Norte), e atendemos prontamente toda a Asa Norte, Plano Piloto, Asa Sul, Lago Norte, Lago Sul, Sudoeste, Noroeste, Águas Claras, Guará, Taguatinga e demais regiões do Distrito Federal.'
   },
   {
     question: 'Quais marcas de purificadores vocês consertam e vendem refil?',

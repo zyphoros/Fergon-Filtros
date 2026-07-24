@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-xl bg-[#0B1E4D] border border-[#1C3675] hover:border-[#2E9BF0] flex items-center justify-center text-slate-300 hover:text-[#2E9BF0] transition-colors"
-                title="Google Maps CLN 103"
+                title="Google Maps CLN 309"
               >
                 <MapPin className="w-4 h-4" />
               </a>
