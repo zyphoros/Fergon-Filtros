@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom Brand Utilities */
+.bg-fergon-navy {
+  background-color: #0B1E4D;
+}
+
+.text-fergon-navy {
+  color: #0B1E4D;
+}
+
+.border-fergon-navy {
+  border-color: #0B1E4D;
+}
+
+/* Brand Gradient: #2E9BF0 -> #3DBE6C */
+.bg-brand-gradient {
+  background: linear-gradient(135deg, #2E9BF0 0%, #3DBE6C 100%);
+}
+
+.text-brand-gradient {
+  background: linear-gradient(135deg, #2E9BF0 0%, #3DBE6C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-brand-gradient {
+  border-image: linear-gradient(135deg, #2E9BF0 0%, #3DBE6C 100%) 1;
+}
+
+.shadow-brand-glow {
+  box-shadow: 0 10px 30px -10px rgba(46, 155, 240, 0.35), 0 4px 15px -5px rgba(61, 190, 108, 0.25);
+}
+
+.shadow-brand-glow-lg {
+  box-shadow: 0 15px 40px -10px rgba(46, 155, 240, 0.45), 0 8px 25px -5px rgba(61, 190, 108, 0.35);
+}
+
+/* Subtle water animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-float {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #071333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C3675;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2E9BF0;
+}
+

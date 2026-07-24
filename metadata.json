@@ -1,0 +1,6 @@
+{
+  "name": "Fêrgon Filtros e Refrigeração",
+  "description": "Assistência técnica, venda e manutenção de filtros de água, purificadores e bebedouros em Brasília - DF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
