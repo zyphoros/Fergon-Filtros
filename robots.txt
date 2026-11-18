@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://fergon-filtros.vercel.app/sitemap.xml
